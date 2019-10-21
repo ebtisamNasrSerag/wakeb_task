@@ -11,6 +11,6 @@ class InfoTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\Info', 20)->create();
+        factory('App\Info', 2000)->create();
     }
 }
